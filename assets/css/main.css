@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+  color: #fff;
+  box-sizing: border-box;
+
+}
+
+.adopte{
+  background-image: url('../images/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
