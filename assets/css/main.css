@@ -1,3 +1,5 @@
+/*BODY*/
+
 *{
   margin: 0;
   padding: 0;
@@ -6,14 +8,32 @@
   box-sizing: border-box;
 
 }
-
+/*SECTION ADOPTAR*/
 .adoptar{
   background-image: url('../images/banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
 }
+/*SECTION ADOPTAR MEDIA QUERY*/
+@media (width: 414px) {
+    .adoptar {
+          background-image: url('../images/pic05.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          text-align: center;
+    }
 
+    .adopte{
+      color: #fff;
+      background-color: #EE4933;
+      padding: 10px 120px 10px 120px;
+      border: none;
+      letter-spacing: 4px;
+      font-size: 10px;
+    }
+}
+/*SECTION ADOPTAR*/
 h1{
   font-weight: 800;
   letter-spacing: 4px;
@@ -48,3 +68,44 @@ button{
 }
 
 button:focus { outline: none; }
+
+/*SECTION PUPPY LOVE*/
+
+.puppy-love{
+  background-color: #21B2A6;
+  text-align: center;
+}
+
+.puppy-love h2{
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+.h2-top{
+  padding: 120px 40px 10px 40px;
+}
+
+.h2-bottom{
+  padding: 0 40px 40px 40px;
+}
+
+.puppy-love hr{
+  padding: 120px 0 10px 0;
+  display: block;
+  height: 4px;
+  border: 0;
+  border-top: 1px solid #1EA399;
+  margin: 1em 0;
+  padding: 0;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.puppy-love p{
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.p-top{
+  padding-top: 30px;
+}
