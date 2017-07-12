@@ -140,3 +140,21 @@ button:focus { outline: none; }
   height: 300px;
   width: 100%;
 }
+
+.purple-section{
+  background-color: #4B4D89;
+  width: 100%;
+  text-align: center;
+}
+
+.purple-section hr{
+  padding: 120px 0 10px 0;
+  display: block;
+  height: 4px;
+  border: 0;
+  border-top: 1px solid #45487F;
+  margin: 1em 0;
+  padding: 0;
+  width: 60%;
+  margin-left: 20%;
+}
