@@ -7,7 +7,7 @@
 
 }
 
-.adopte{
+.adoptar{
   background-image: url('../images/banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,8 +16,35 @@
 
 h1{
   font-weight: 800;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
   font-size: 35px;
+  padding:200px 0 40px 0;
 /*  margin: 15px 0px 5px 0px;
   border-bottom: 5px solid white;*/
 }
+
+h2{
+  font-size: 15px;
+  letter-spacing: 4px;
+}
+.quienes{
+      padding: 0 0 10px 0;
+}
+.learn{
+  padding: 90px 0 10px 0;
+}
+
+button{
+  color: #fff;
+  background-color: #EE4933;
+  padding: 10px 40px 10px 40px;
+  border: none;
+  letter-spacing: 4px;
+  font-size: 10px;
+}
+
+.adopte{
+    border-radius: 3px;
+}
+
+button:focus { outline: none; }
