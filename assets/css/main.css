@@ -16,7 +16,7 @@
   text-align: center;
 }
 /*SECTION ADOPTAR MEDIA QUERY*/
-@media (width: 414px) {
+@media screen and (min-width: 320px)and (max-width: 414px) {
     .adoptar {
           background-image: url('../images/pic05.jpg');
           background-repeat: no-repeat;
