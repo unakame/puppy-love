@@ -2,7 +2,7 @@
   "name": "puppy-love",
   "version": "1.0.0",
   "description": "Pet App",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
