@@ -1,28 +1,22 @@
-/*BODY*/
-
 *{
   margin: 0;
   padding: 0;
   font-family: 'Open Sans';
   color: #fff;
-  box-sizing: border-box;
-
-}
+  box-sizing: border-box;}
 /*SECTION ADOPTAR*/
 .adoptar{
   background-image: url('../images/banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
-}
+  text-align: center;}
 /*SECTION ADOPTAR MEDIA QUERY*/
 @media screen and (min-width: 320px)and (max-width: 414px) {
     .adoptar {
           background-image: url('../images/pic05.jpg');
           background-repeat: no-repeat;
           background-size: cover;
-          text-align: center;
-    }
+          text-align: center;  }
 
     .adopte{
       color: #fff;
@@ -30,29 +24,29 @@
       padding: 10px 120px 10px 120px;
       border: none;
       letter-spacing: 4px;
-      font-size: 10px;
-    }
+      font-size: 10px; }
+
+    .purple-section {
+        min-height: 1860px;}
+
+    .transparent{
+      padding: 10px 86px 10px 86px;}
 }
 /*SECTION ADOPTAR*/
 .pupy-title{
   font-weight: 800;
   letter-spacing: 4px;
   font-size: 35px;
-  padding:200px 0 40px 0;
-/*  margin: 15px 0px 5px 0px;
-  border-bottom: 5px solid white;*/
-}
+  padding:200px 0 40px 0;}
 
 h2{
   font-size: 15px;
-  letter-spacing: 4px;
-}
+  letter-spacing: 4px;}
 .quienes{
-      padding: 0 0 10px 0;
-}
+      padding: 0 0 10px 0;}
+
 .learn{
-  padding: 90px 0 10px 0;
-}
+  padding: 90px 0 10px 0;}
 
 button{
   color: #fff;
@@ -60,34 +54,27 @@ button{
   padding: 10px 40px 10px 40px;
   border: none;
   letter-spacing: 4px;
-  font-size: 10px;
-}
+  font-size: 10px;}
 
 .adopte{
-    border-radius: 3px;
-}
+    border-radius: 3px;}
 
 button:focus { outline: none; }
 
 /*SECTION PUPPY LOVE*/
-
 .puppy-love{
   background-color: #21B2A6;
-  text-align: center;
-}
+  text-align: center;}
 
 .puppy-love h2{
   font-size: 17px;
-  font-weight: bolder;
-}
+  font-weight: bolder;}
 
 .h2-top{
-  padding: 120px 40px 10px 40px;
-}
+  padding: 120px 40px 10px 40px;}
 
 .h2-bottom{
-  padding: 0 40px 40px 40px;
-}
+  padding: 0 40px 40px 40px;}
 
 .puppy-love hr{
   padding: 120px 0 10px 0;
@@ -98,54 +85,46 @@ button:focus { outline: none; }
   margin: 1em 0;
   padding: 0;
   width: 60%;
-  margin-left: 20%;
-}
+  margin-left: 20%;}
 
 .puppy-love p{
   letter-spacing: 1px;
-  font-weight: 100;
-}
+  font-weight: 100;}
 
 .p-top{
-  padding-top: 30px;
-}
+  padding-top: 30px;}
 
 .icons img{
-  padding: 30px;
-}
+  padding: 30px;}
 
 .dog-1{
   background-image: url('../images/pic01.jpg');
   background-size: cover;
   height: 300px;
-  width: 100%;
-}
+  width: 100%;}
 
 .dog-2{
   background-image: url('../images/pic02.jpg');
   background-size: cover;
   height: 300px;
-  width: 100%;
-}
+  width: 100%;}
 
 .dog-3{
   background-image: url('../images/pic03.jpg');
   background-size: cover;
   height: 300px;
-  width: 100%;
-}
+  width: 100%;}
 
 .background-dog{
   background-color: #2B343D;
   height: 300px;
-  width: 100%;
-}
+  width: 100%;}
 
 .purple-section{
   background-color: #4B4D89;
   width: 100%;
   text-align: center;
-}
+  height: 1000px;}
 
 .purple-section hr{
   padding: 120px 0 10px 0;
@@ -156,5 +135,30 @@ button:focus { outline: none; }
   margin: 1em 0;
   padding: 0;
   width: 60%;
-  margin-left: 20%;
+  margin-left: 20%;}
+
+.purple-container div{
+    height: 250px;}
+
+.purple-container div img{
+  padding: 30px;
+  margin-left: -272px;}
+
+.purple-container div h2{
+  padding-top: 10px;
+  font-weight: bold;}
+
+.buttons{
+  background-image: url('../images/banner.jpg');
+  background-size: cover;
+  height: 300px;}
+
+.transparent{
+  background-color: transparent;
+  border: 2px solid #fff;}
+
+footer{
+  background-color: #575653;
+  width: 100%;
+  height: 300px;
 }
