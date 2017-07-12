@@ -34,7 +34,7 @@
     }
 }
 /*SECTION ADOPTAR*/
-h1{
+.pupy-title{
   font-weight: 800;
   letter-spacing: 4px;
   font-size: 35px;
@@ -108,4 +108,35 @@ button:focus { outline: none; }
 
 .p-top{
   padding-top: 30px;
+}
+
+.icons img{
+  padding: 30px;
+}
+
+.dog-1{
+  background-image: url('../images/pic01.jpg');
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.dog-2{
+  background-image: url('../images/pic02.jpg');
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.dog-3{
+  background-image: url('../images/pic03.jpg');
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.background-dog{
+  background-color: #2B343D;
+  height: 300px;
+  width: 100%;
 }
